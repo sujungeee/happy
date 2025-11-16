@@ -6,6 +6,8 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+import java.math.BigDecimal;
+
 @Entity
 @Table(name = "store")
 @NoArgsConstructor
@@ -22,6 +24,8 @@ public class Store {
     private String address;
 
     private String phoneNumber;
+
+    private BigDecimal rating;
 
     private int minOrderPrice;
 }

@@ -36,5 +36,7 @@ public class Review {
 
     private String content;
 
+    private int rating;
+
     private LocalDateTime createdAt;
 }

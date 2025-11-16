@@ -28,5 +28,5 @@ public class OrderDetail {
 
     private int price;
 
-    private int amount;
+    private int quantity;
 }

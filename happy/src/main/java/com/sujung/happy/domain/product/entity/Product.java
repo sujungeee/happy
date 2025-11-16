@@ -24,4 +24,6 @@ public class Product {
     private int sales;
 
     private int warehouseAmount;
+
+    private String imageUrl;
 }
